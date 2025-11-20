@@ -1,0 +1,24 @@
+src/
+ ├─ app/
+ │   ├─ core/
+ │   │    ├─ guards/
+ │   │    ├─ interceptors/
+ │   │    ├─ services/
+ │   │    │     ├─ auth.service.ts
+ │   │    │     ├─ permission.service.ts
+ │   │    │     └─ route-role.service.ts
+ │   │    ├─ models/
+ │   │    │     ├─ user.model.ts
+ │   │    │     ├─ role.model.ts
+ │   │    │     └─ permission.model.ts
+ │   ├─ layout/
+ │   │    ├─ sidebar/
+ │   │    └─ topbar/
+ │   ├─ features/
+ │   │    ├─ dashboard/
+ │   │    ├─ profile/
+ │   │    ├─ approval/ ← ★決裁系
+ │   │    └─ admin/
+ │   └─ app.routes.ts
+ ├─ assets/
+ └─ styles.scss
